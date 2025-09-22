@@ -247,7 +247,7 @@ export default function ConsentForm() {
     
     // Submit data to Google Apps Script backend
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbzhsY9RqVjUp03M2ngBxCODPxMbWjJ4VN_gPZqUKFsxAXmNdjE9PLN8ebl2y4jFYH2Yog/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbyEEBmb_b-tD9Mm-xiWn9Omh2Yi3wqDWucyP_QajGfGntHl9qi5ox39peinlS_ElzrWow/exec', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
